@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.log
+*.pkg
+*.elf
+*.prx
+*.bin
+*.dat
+*.exfat
+*.ffpkg
+*.ffpfsc
+*.part
+.env
+.env.*
+tools/vendor/
+private/
+research/

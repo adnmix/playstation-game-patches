@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <TitleID>
+    <ID>CUSA43772</ID>
+  </TitleID>
+  <Metadata Title="The Mortuary Assistant" Name="60 FPS" Author="adnmix" PatchVer="1.0" AppVer="01.08" AppElf="eboot.bin" ImageBase="0x00400000" Note="PS4 CUSA43772 v01.08 only. Targets 60 FPS and forces one-VBlank presentation. Original resolution. Stable gameplay reported on PS5. Enable this patch for each game session. Maintained/tested by adnmix with OpenAI Codex assistance. Use at your own risk; no warranty. See repository testing limits.">
+    <PatchList>
+      <Line Type="bytes" Address="0x007D2CD0" Value="C7058A58A3013C000000C3" />
+      <Line Type="bytes" Address="0x008B63F7" Value="41BE010000009090" />
+      <Line Type="bytes" Address="0x017D6E00" Value="C7055EAABA0001000000C3" />
+      <Line Type="bytes" Address="0x017DFEF9" Value="41BE0100000090" />
+      <Line Type="bytes" Address="0x017E9973" Value="B801000000909090" />
+      <Line Type="bytes" Address="0x02208564" Value="3C000000" />
+      <Line Type="bytes" Address="0x02381868" Value="01000000" />
+    </PatchList>
+  </Metadata>
+</Patch>
